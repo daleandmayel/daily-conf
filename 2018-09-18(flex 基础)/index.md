@@ -1,5 +1,5 @@
 ## 一、兼容性
-正如标题所示，`flex` 也是 CSS3 中的一员，正如大多数 CSS3 属性一样，`flex` 的兼容性算不上特别好（[详情请点击](https://caniuse.com/#search=flex)）。
+正如标题所示，`flex` 也是 CSS3 中的一员，正如大多数 CSS3 属性一样，`flex` 的兼容性算不上特别好（[详情请点击" href="https://caniuse.com/#search=flex)）。
 比较有意思的是，`flex` 本身经历了好几次更迭才最终定稿。如果见到以下写法请不要觉得惊讶：
 
 * `display:box/inline-box;`   2009年版本，仅 safari 支持；
@@ -30,7 +30,7 @@ flex-direction 决定了主轴的方向，进而决定了容器内成员的排�
 * column-reverse: 主轴延垂直方向向上
 
 <a href="./flex-direction.html">
-    ![flex-direction](http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-direction.png%2Forigine%2F7c3f86ac-eed7-4444-8464-20482d347d9c?imageMogr2/auto-orient/strip/quality/90)
+    <img title=flex-direction" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-direction.png%2Forigine%2F7c3f86ac-eed7-4444-8464-20482d347d9c?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 ### （2）flex-wrap
@@ -43,7 +43,7 @@ flex-wrap: nowrap | wrap | wrap-reverse;
 * wrap-reverse: 换行，但行与行之间，延交叉轴反方向排列。 
 
 <a href="./flex-wrap.html">
-    ![flex-wrap](http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-wrap.png%2Forigine%2F9af22ac1-e420-4282-9d8b-b2c51e6b80ff?imageMogr2/auto-orient/strip/quality/90)
+    <img title=flex-wrap" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-wrap.png%2Forigine%2F9af22ac1-e420-4282-9d8b-b2c51e6b80ff?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 ### （3）flex-flow
 `flex-flow` 属性是 `flex-direction` 属性和 `flex-wrap` 属性的简写形式，默认值为row nowrap
@@ -57,9 +57,9 @@ justify-content: flex-start | flex-end | center | space-between | space-around |
 * center:  以主轴居中对齐（水平/竖直居中，依 flex-direction 而定）；
 * space-between: 以主轴两端对齐，项目之间的间隔都相等；
 * space-around: 以主轴两端对齐，但跟 `space-between` 不同的是，它在两侧各有 1/2 的间距；
-* space-evenly: 以主轴两端对齐，两侧各有 1 倍的间距（新增属性，兼容性不太好，[详见](https://caniuse.com/#search=space-evenly)）。
+* space-evenly: 以主轴两端对齐，两侧各有 1 倍的间距（新增属性，兼容性不太好，[详见" href="https://caniuse.com/#search=space-evenly)）。
 <a href="./justify-content.html">
-    ![justify-content](http://bgl.zbjimg.com/bgl%2Fbjclound%2Fjustify-content.png%2Forigine%2F2dbeca01-4be6-4ae1-8c02-37d8e59b0a7c?imageMogr2/auto-orient/strip/quality/90)
+    <img title=justify-content" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Fjustify-content.png%2Forigine%2F2dbeca01-4be6-4ae1-8c02-37d8e59b0a7c?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 ### （5）align-items
 ```
@@ -72,7 +72,7 @@ align-items: flex-start | flex-end | center | baseline | stretch;
 * baseline: 项目的第一行文字的基线对齐；
 * stretch（默认值）: 如果项目未设置宽度/高度或设为auto，将占满整个容器的宽度/高度（默认拉伸高度，具体视 `flex-direction` 取值而定）。
 <a href="./align-items.html">
-    ![align-items](http://bgl.zbjimg.com/bgl%2Fbjclound%2Falign-items.png%2Forigine%2Fac81650f-2288-489a-b008-d1cc3e2ec4be?imageMogr2/auto-orient/strip/quality/90)
+    <img title=align-items" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Falign-items.png%2Forigine%2Fac81650f-2288-489a-b008-d1cc3e2ec4be?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 
@@ -90,7 +90,7 @@ align-content: flex-start | flex-end | center | space-between | space-around | s
 * stretch（默认值）: 轴线占满整个交叉轴。
 
 <a href="./align-content.html">
-    ![align-content](http://bgl.zbjimg.com/bgl%2Fbjclound%2Falign-content.png%2Forigine%2Ffce2ba50-ec08-4e20-991d-32a8205f6fe4?imageMogr2/auto-orient/strip/quality/90)
+    <img title=align-content" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Falign-content.png%2Forigine%2Ffce2ba50-ec08-4e20-991d-32a8205f6fe4?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 ## 四、成员的属性
@@ -100,7 +100,7 @@ order: <integer>;
 ```
 `order` 属性定义成员在主轴上的排列顺序，它将忽略普通的文档流，数值越小的成员，排列越靠前，默认为 0。
 <a href="./order.html">
-    ![order](http://bgl.zbjimg.com/bgl%2Fbjclound%2Forder.png%2Forigine%2Fb3fe60cb-6dfb-4def-87d9-e36d66df59c7?imageMogr2/auto-orient/strip/quality/90)
+    <img title=order" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Forder.png%2Forigine%2Fb3fe60cb-6dfb-4def-87d9-e36d66df59c7?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 ### （2）flex-grow
@@ -109,7 +109,7 @@ flex-grow: <number>;
 ```
 `flex-grow` 属性定义当成员不能占满主轴时，容器内空白位置在成员间的划分方式，它将会使得成员延主轴被拉伸，默认为 0。它的数值不代表具体的大小，而是代表了所占比例。如三个成员 `order` 分别为 1、2、1，那么第一、第三个成员将各被拉伸容器空白位置 1/4 的大小，而第二个成员则会被拉伸容器空白位置 1/2 的大小。当成员能够占满主轴时，`flex-grow` 属性无效。
 <a href="./flex-grow.html">
-    ![flex-grow](http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-grow.png%2Forigine%2F5b50fa73-c0b2-439b-97d2-20c51bfc5375?imageMogr2/auto-orient/strip/quality/90)
+    <img title=flex-grow" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-grow.png%2Forigine%2F5b50fa73-c0b2-439b-97d2-20c51bfc5375?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 ### （3）flex-shrink
@@ -118,7 +118,7 @@ flex-shrink: <number>;
 ```
 与 `flex-grow` 恰好相反的是， `flex-shrink` 属性定义当成员占满主轴并且溢出时（`flex-wrap` 必须为 `nowrap`），它将会使得成员延主轴方向被压缩，默认为 1。与 `flex-grow` 一样，它的值不代表具体大小，而是代表压缩比例。
 <a href="./flex-grow.html">
-    ![flex-shrink](http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-shrink.png%2Forigine%2Fa20f962c-755f-4a17-ae04-50db6cddfcf6?imageMogr2/auto-orient/strip/quality/90)
+    <img title=flex-shrink" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-shrink.png%2Forigine%2Fa20f962c-755f-4a17-ae04-50db6cddfcf6?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 ### （4）flex-basis
@@ -138,7 +138,7 @@ align-self: auto | flex-start | flex-end | center | baseline | stretch | space-e
 ```
 `align-self` 顾名思义，就是决定自身沿交叉轴方向的排列方式，它可以用来覆盖容器上设置的 `align-items` 效果。可选择的属性、效果都与 `align-items` 类似，但它多了一个 `auto` 属性（默认），相当于继承父元素的 `align-items` 属性。
 <a href="./align-self.html">
-    ![flex-self](http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-self.png%2Forigine%2F750b46bc-2f78-4e74-97fe-bcec4951fd68?imageMogr2/auto-orient/strip/quality/90)
+    <img title=flex-self" src="http://bgl.zbjimg.com/bgl%2Fbjclound%2Fflex-self.png%2Forigine%2F750b46bc-2f78-4e74-97fe-bcec4951fd68?imageMogr2/auto-orient/strip/quality/90" />
 </a>
 
 
