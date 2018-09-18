@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>align-items</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            float: left;
+            text-align: center;
+
+            margin: 50px;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            width: 300px;
+            height: 300px;
+            background-color: #ddd;
+            border: 5px solid #999;
+        }
+        li {
+            width: 50px;
+            /* height: 50px; */
+            padding: 20px 0;
+            background-color: white;
+            border: 1px solid #666;
+        }
+
+        ul.flex-start {
+            align-items: flex-start;
+        }
+
+        ul.flex-end {
+            align-items: flex-end;
+        }
+
+        ul.center {
+            align-items: center;
+        }
+
+        ul.baseline {
+            align-items: baseline;
+        }
+        ul.baseline li:nth-of-type(1) {
+            font-size: 10px;
+        }
+
+        ul.baseline li:nth-of-type(2) {
+            font-size: 20px;
+        }
+
+        ul.baseline li:nth-of-type(3) {
+            font-size: 30px;
+        }
+
+        ul.baseline li:nth-of-type(4) {
+            font-size: 40px;
+        }
+
+
+        ul.stretch {
+            align-items: stretch;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>flex-start</h1>
+        <ul class="flex-start">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>flex-end</h1>
+        <ul class="flex-end">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>center</h1>
+        <ul class="center">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>baseline</h1>
+        <ul class="baseline">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>stretch</h1>
+        <ul class="stretch">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>justify-content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            float: left;
+            text-align: center;
+
+            margin: 50px;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            width: 300px;
+            height: 300px;
+            background-color: #ddd;
+            border: 5px solid #999;
+        }
+        li {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid #666;
+        }
+        ul.flex-start {
+            justify-content: flex-start;
+        }
+
+        ul.flex-end {
+            justify-content: flex-end;
+        }
+
+        ul.center {
+            justify-content: center;
+        }
+
+        ul.space-between {
+            justify-content: space-between;
+        }
+
+        ul.space-around {
+            justify-content: space-around;
+        }
+
+        ul.space-evenly {
+            justify-content: space-evenly;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>flex-start</h1>
+        <ul class="flex-start">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>flex-end</h1>
+        <ul class="flex-end">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>center</h1>
+        <ul class="center">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>space-between</h1>
+        <ul class="space-between">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>space-around</h1>
+        <ul class="space-around">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>space-evenly</h1>
+        <ul class="space-evenly">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
