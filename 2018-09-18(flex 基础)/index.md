@@ -1,3 +1,4 @@
+# CSS —— flex 基础
 ## 一、兼容性
 正如标题所示，`flex` 也是 CSS3 中的一员，正如大多数 CSS3 属性一样，`flex` 的兼容性算不上特别好。
 ![caniuse.com](https://upload-images.jianshu.io/upload_images/2064445-ed9369c38339f790.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
