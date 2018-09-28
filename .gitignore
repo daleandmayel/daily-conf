@@ -1,0 +1,9 @@
+.git
+*.log
+*.zip
+node_modules/
+.vscode/
+.idea/
+npm-debug.log.*
+.DS_Store
+2018-09-28/node_modules/
