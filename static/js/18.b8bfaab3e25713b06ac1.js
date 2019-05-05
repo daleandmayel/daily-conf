@@ -1,0 +1,2 @@
+webpackJsonp([18],{Brjp:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={mixins:[n("cH33").a]},s={render:function(){var e=this.$createElement,t=this._self._c||e;return t("Container",[t("TableIn",{attrs:{data:this.vuexHistoryIn}})],1)},staticRenderFns:[]},a=n("VU/8")(r,s,!1,null,null,null);t.default=a.exports}});
+//# sourceMappingURL=18.b8bfaab3e25713b06ac1.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([16],{"8/c5":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var o=t("lbHh"),l=t.n(o),r={methods:{handleLogout:function(){l.a.remove("login"),this.$router.push({name:"login"})}}},u={render:function(){var e=this.$createElement,n=this._self._c||e;return n("Container",[n("el-button",{on:{click:this.handleLogout}},[this._v("退出登录")])],1)},staticRenderFns:[]},i=t("VU/8")(r,u,!1,null,null,null);n.default=i.exports}});
+//# sourceMappingURL=16.568c62ae6b37075ec6e1.js.map
